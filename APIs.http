@@ -1,0 +1,5 @@
+# * Root *
+# 此接口返回一个 `Hello World!`，可用于测试服务可用性。
+
+GET http://localhost:8352
+
