@@ -3,3 +3,15 @@
 
 GET http://localhost:8352
 
+###
+
+# * Get All Resources *
+# 此接口返回所有资源的元数据。
+#
+# * 查询参数 *
+# - limit:  可选，用于限制查询数量
+# - offset: 可选，用于指定查询偏移量
+#
+# `limit` 和 `offset` 必须被同时指定或未被指定。
+
+GET http://localhost:8352/get_all_resources?limit=20&offset=10
